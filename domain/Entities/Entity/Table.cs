@@ -17,8 +17,5 @@ namespace domain.Entities
         public User Master { get; set; }
 
         public IList<PlayerTable> PlayerTables { get; set; }
-
-        public IList<MS> MSs { get; set; }
-        public IList<RMX> RMXs { get; set; }
     }
 }

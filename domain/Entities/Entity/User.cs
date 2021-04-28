@@ -14,7 +14,6 @@ namespace domain.Entities
 
         public IList<PlayerTable> PlayerTables { get; set; }
         public IList<RMX> RMXs { get; set; }
-        public IList<MS> MSs { get; set; }
 
         [NotMapped]
         public string Token { get; set; }
